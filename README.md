@@ -1,2 +1,2 @@
 # permission
-Config files for my GitHub profile.
+izin mazeh
