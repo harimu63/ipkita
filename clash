@@ -128,7 +128,7 @@ dns:
     - "*.mcdn.bilivideo.cn"
     - +.media.dssott.com
 proxies:
-  - name: Trial-219x
+  - name: vmess
     server: vpn1.danstore.my.id
     port: 80
     type: vmess
@@ -144,7 +144,7 @@ proxies:
       headers:
         Host: vpn1.danstore.my.id
     udp: true
-  - name: Trial-219x 2
+  - name: tes
     server: vpn1.danstore.my.id
     port: 443
     type: vmess
@@ -159,11 +159,11 @@ proxies:
       grpc-service-name: vmess-grpc
     udp: true
 proxy-groups:
-  - name: FASTSSH-SSHKIT-HOWDY
+  - name: DANSTORE
     type: select
     proxies:
-      - Trial-219x
-      - Trial-219x 2
+      - vmess
+      - tes
       - DIRECT
 rules:
-  - MATCH,FASTSSH-SSHKIT-HOWDY
+  - MATCH,DANSTORE
