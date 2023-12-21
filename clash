@@ -129,10 +129,10 @@ dns:
     - +.media.dssott.com
 proxies:
   - name: vmess
-    server: vpn1.danstore.my.id
+    server: www.udemy.com
     port: 80
     type: vmess
-    uuid: 17a0dc74-a5ec-474f-a300-edffbb36055a
+    uuid: fb6adf80-6a1b-43da-8c8a-0d6d2ad48a8f
     alterId: 0
     cipher: auto
     tls: false
@@ -148,7 +148,7 @@ proxies:
     server: vpn1.danstore.my.id
     port: 443
     type: vmess
-    uuid: 17a0dc74-a5ec-474f-a300-edffbb36055a
+    uuid: fb6adf80-6a1b-43da-8c8a-0d6d2ad48a8f
     alterId: 0
     cipher: auto
     tls: true
